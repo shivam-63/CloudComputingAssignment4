@@ -16,12 +16,11 @@
  * limitations under the License.
  */
 
-package org.apache.flink.examples.java.clustering.util;
+package clustering.util;
 
+import clustering.CellCluster;
 import org.apache.flink.api.java.DataSet;
 import org.apache.flink.api.java.ExecutionEnvironment;
-import org.apache.flink.examples.java.clustering.KMeans.Centroid;
-import org.apache.flink.examples.java.clustering.KMeans.Point;
 
 import java.util.LinkedList;
 import java.util.List;
@@ -84,19 +83,19 @@ public class KMeansData {
 		new Object[] {20.83, 57.85}
 	};
 
-	public static DataSet<Centroid> getDefaultCentroidDataSet(ExecutionEnvironment env) {
-		List<Centroid> centroidList = new LinkedList<Centroid>();
+	public static DataSet<CellCluster.Centroid> getDefaultCentroidDataSet(ExecutionEnvironment env) {
+		List<CellCluster.Centroid> centroidList = new LinkedList<CellCluster.Centroid>();
 		for (Object[] centroid : CENTROIDS) {
 			centroidList.add(
-					new Centroid((Integer) centroid[0], (Double) centroid[1], (Double) centroid[2]));
+					new CellCluster.Centroid((Integer) centroid[0], (Double) centroid[1], (Double) centroid[2]));
 		}
 		return env.fromCollection(centroidList);
 	}
 
-	public static DataSet<Point> getDefaultPointDataSet(ExecutionEnvironment env) {
-		List<Point> pointList = new LinkedList<Point>();
+	public static DataSet<CellCluster.Point> getDefaultPointDataSet(ExecutionEnvironment env) {
+		List<CellCluster.Point> pointList = new LinkedList<CellCluster.Point>();
 		for (Object[] point : POINTS) {
-			pointList.add(new Point((Double) point[0], (Double) point[1]));
+			pointList.add(new CellCluster.Point((Double) point[0], (Double) point[1]));
 		}
 		return env.fromCollection(pointList);
 	}

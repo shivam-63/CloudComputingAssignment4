@@ -37,7 +37,7 @@ import java.io.Serializable;
 import java.util.Collection;
 
 
-public class KMeans {
+public class CellCluster {
 
     public static void main(String[] args) throws Exception {
 
@@ -92,7 +92,7 @@ public class KMeans {
         //DataSet<Centroid> centroids = getCentroidDataSet(params, env);
 
 
-        // set number of bulk iterations for KMeans algorithm
+        // set number of bulk iterations for CellCluster algorithm
         IterativeDataSet<Centroid> loop = centroids.iterate(params.getInt("iterations", 10));
 
         DataSet<Centroid> newCentroids = points
@@ -116,7 +116,7 @@ public class KMeans {
             clusteredPoints.writeAsCsv(params.get("output"), "\n", ",", FileSystem.WriteMode.OVERWRITE);
 
             // since file sinks are lazy, we trigger the execution explicitly
-            env.execute("KMeans Example");
+            env.execute("CellCluster Example");
         } else {
             System.out.println("Printing result to stdout. Use --output to specify output path.");
             clusteredPoints.print();

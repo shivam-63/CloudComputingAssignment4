@@ -2,21 +2,18 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="CCAssignmentFourMaven:jar" />
+      <artifact name="CCAssignmentFourMavenKMeans" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cb2cc22e-c53e-4bd5-bd3c-9abe5a24a5da" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/CCAssignmentFourMavenKMeans.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/clustering/CellCluster.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/clustering/util/KMeansData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/clustering/util/KMeansDataGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/kmeans/META-INF/MANIFEST.MF" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CCAssignmentFourMaven_jar/CCAssignmentFourMaven.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/CCAssignmentFourMaven_jar/CCAssignmentFourMaven.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SocketWindowWordCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SocketWindowWordCount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SocketWindowWordCount$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SocketWindowWordCount$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SocketWindowWordCount$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SocketWindowWordCount$TupleConverter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SocketWindowWordCount$WordWithCount.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SocketWindowWordCount.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SocketWindowWordCount.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WordCount.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WordCount.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -36,34 +33,36 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1729" />
+          <entry key="dummy" value="21" />
+          <entry key="java" value="2533" />
           <entry key="txt" value="1" />
           <entry key="xml" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1729" />
-          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="JAVA" value="2533" />
+          <entry key="PLAIN_TEXT" value="22" />
           <entry key="XML" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="MF" value="1" />
-          <entry key="class" value="5" />
-          <entry key="csv" value="14" />
-          <entry key="java" value="3" />
+          <entry key="class" value="7" />
+          <entry key="csv" value="20" />
+          <entry key="java" value="7" />
+          <entry key="py" value="1" />
           <entry key="txt" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="5" />
-          <entry key="CSV" value="14" />
-          <entry key="JAVA" value="3" />
+          <entry key="CLASS" value="7" />
+          <entry key="CSV" value="20" />
+          <entry key="JAVA" value="7" />
           <entry key="Manifest" value="1" />
-          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="PLAIN_TEXT" value="4" />
         </counts>
       </usages-collector>
     </session>
@@ -71,19 +70,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/java/WordCount.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/SocketWindowWordCount.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="429">
-              <caret line="77" column="57" selection-start-line="77" selection-start-column="57" selection-end-line="77" selection-end-column="57" />
+            <state relative-caret-position="931">
+              <caret line="111" column="12" selection-start-line="111" selection-start-column="12" selection-end-line="111" selection-end-column="12" />
               <folding>
                 <element signature="e#0#3850#0" expanded="true" />
                 <element signature="imports" expanded="true" />
@@ -97,53 +87,107 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/clustering/util/KMeansData.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1032">
+              <caret line="89" column="53" selection-start-line="89" selection-start-column="46" selection-end-line="89" selection-end-column="53" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2971#2988#0" expanded="true" />
+                <element signature="e#3333#3347#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/clustering/CellCluster.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="188">
+              <caret line="54" column="57" selection-start-line="54" selection-start-column="57" selection-end-line="54" selection-end-column="57" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2146#2307#0" expanded="true" />
+                <element signature="e#2306#2307#0" expanded="true" />
+                <element signature="e#2246#2431#0" expanded="true" />
+                <element signature="e#2430#2431#0" expanded="true" />
+                <element signature="e#2494#2680#0" expanded="true" />
+                <element signature="e#2679#2680#0" expanded="true" />
+                <element signature="e#2684#2936#0" expanded="true" />
+                <element signature="e#2935#2936#0" expanded="true" />
+                <element signature="e#2992#3208#0" expanded="true" />
+                <element signature="e#3207#3208#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/clusters.csv">
+          <provider selected="true" editor-type-id="csv-text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/plot_clusters.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="22" selection-start-column="15" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/String.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="212">
+              <caret line="110" column="19" selection-start-line="110" selection-start-column="19" selection-end-line="110" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/opencellid_data/berlin.csv">
+          <provider selected="true" editor-type-id="csv-text-editor">
+            <state>
+              <caret column="13" selection-start-column="10" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/opencellid_data/germany.csv">
+          <provider selected="true" editor-type-id="LargeFileEditor">
+            <state>
+              <caret column="12" selection-start-column="12" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/clustering/util/KMeansDataGenerator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-334">
+              <caret line="50" column="51" selection-start-line="50" selection-start-column="51" selection-end-line="50" selection-end-column="51" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/temporary.csv">
           <provider selected="true" editor-type-id="csv-text-editor">
-            <state relative-caret-position="-108439">
-              <caret line="177" column="14" selection-start-line="177" selection-end-line="177" selection-end-column="14" />
+            <state relative-caret-position="-108514">
+              <caret line="172" column="14" selection-start-line="172" selection-start-column="14" selection-end-line="172" selection-end-column="14" />
             </state>
           </provider>
           <provider editor-type-id="csv-table-editor">
             <state showInfoPanel="true" rowLines="3" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test-output.csv">
-          <provider selected="true" editor-type-id="csv-text-editor">
-            <state relative-caret-position="511">
-              <caret line="141" column="4" selection-start-line="141" selection-start-column="4" selection-end-line="141" selection-end-column="4" />
-            </state>
-          </provider>
-          <provider editor-type-id="csv-table-editor">
-            <state showInfoPanel="true" rowLines="3" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tolstoy-war-and-peace_copy.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tolstoy-war-and-peace.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
-              <caret line="44796" column="43" selection-start-line="44796" selection-start-column="36" selection-end-line="44796" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.11/1.7.1/flink-streaming-java_2.11-1.7.1.jar!/org/apache/flink/streaming/api/datastream/KeyedStream.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="188" column="46" selection-start-line="188" selection-start-column="46" selection-end-line="188" selection-end-column="46" />
-            </state>
           </provider>
         </entry>
       </file>
@@ -163,6 +207,8 @@
       <find>abstiens</find>
       <find>action</find>
       <find>actions</find>
+      <find>params.get</find>
+      <find>cluster</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -172,10 +218,14 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/WordCount.java" />
         <option value="$PROJECT_DIR$/src/main/java/Test.java" />
         <option value="$PROJECT_DIR$/tolstoy-war-and-peace_copy.txt" />
         <option value="$PROJECT_DIR$/src/main/java/SocketWindowWordCount.java" />
+        <option value="$PROJECT_DIR$/src/main/java/WordCount.java" />
+        <option value="$PROJECT_DIR$/src/main/java/clustering/util/KMeansData.java" />
+        <option value="$PROJECT_DIR$/src/main/java/clustering/util/KMeansDataGenerator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/clustering/KMeans.java" />
+        <option value="$PROJECT_DIR$/src/main/java/clustering/CellCluster.java" />
       </list>
     </option>
   </component>
@@ -189,7 +239,9 @@
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -202,6 +254,22 @@
             <path>
               <item name="CCAssignmentFourMaven" type="b2602c69:ProjectViewProjectNode" />
               <item name="CCAssignmentFourMaven" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CCAssignmentFourMaven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CCAssignmentFourMaven" type="462c0819:PsiDirectoryNode" />
+              <item name="opencellid_data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CCAssignmentFourMaven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CCAssignmentFourMaven" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CCAssignmentFourMaven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CCAssignmentFourMaven" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CCAssignmentFourMaven" type="b2602c69:ProjectViewProjectNode" />
@@ -221,6 +289,23 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="CCAssignmentFourMaven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CCAssignmentFourMaven" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="clustering" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CCAssignmentFourMaven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CCAssignmentFourMaven" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="clustering" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -231,7 +316,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548945597025" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548951082051" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Artifacts" />
@@ -241,8 +326,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/out/artifacts/CCAssignmentFourMaven_jar" />
       <recent name="$PROJECT_DIR$/src/main/java" />
+      <recent name="$PROJECT_DIR$/out/artifacts/CCAssignmentFourMaven_jar" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -281,16 +366,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1548928360621</updated>
-      <workItem from="1548928363862" duration="14267000" />
+      <workItem from="1548928363862" duration="18683000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14267000" />
+    <option name="totallyTimeSpent" value="18683000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
@@ -299,10 +383,10 @@
       <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" visible="true" weight="0.17710844" />
+      <window_info anchor="bottom" id="Messages" weight="0.17710844" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32891566" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32891566" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
@@ -391,17 +475,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-java/1.7.1/flink-java-1.7.1.jar!/org/apache/flink/api/java/DataSet.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="479" column="23" selection-start-line="479" selection-start-column="23" selection-end-line="479" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test-output.csv">
       <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="511">
-          <caret line="141" column="4" selection-start-line="141" selection-start-column="4" selection-end-line="141" selection-end-column="4" />
+        <state relative-caret-position="436">
+          <caret line="136" column="4" selection-start-line="136" selection-start-column="4" selection-end-line="136" selection-end-column="4" />
         </state>
       </provider>
       <provider editor-type-id="csv-table-editor">
@@ -417,18 +494,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/temporary.csv">
       <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="-108439">
-          <caret line="177" column="14" selection-start-line="177" selection-end-line="177" selection-end-column="14" />
+        <state relative-caret-position="-108514">
+          <caret line="172" column="14" selection-start-line="172" selection-start-column="14" selection-end-line="172" selection-end-column="14" />
         </state>
       </provider>
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" rowLines="3" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SocketWindowWordCount.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/clustering/util/KMeansDataGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="77" column="57" selection-start-line="77" selection-start-column="57" selection-end-line="77" selection-end-column="57" />
+        <state relative-caret-position="-334">
+          <caret line="50" column="51" selection-start-line="50" selection-start-column="51" selection-end-line="50" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-java/1.7.1/flink-java-1.7.1.jar!/org/apache/flink/api/java/DataSet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="380" column="31" selection-start-line="380" selection-start-column="31" selection-end-line="380" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="110" column="19" selection-start-line="110" selection-start-column="19" selection-end-line="110" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/WordCount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="931">
+          <caret line="111" column="12" selection-start-line="111" selection-start-column="12" selection-end-line="111" selection-end-column="12" />
           <folding>
             <element signature="e#0#3850#0" expanded="true" />
             <element signature="imports" expanded="true" />
@@ -440,13 +541,83 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-java/1.7.1/flink-java-1.7.1.jar!/org/apache/flink/api/java/io/CsvReader.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="203" column="29" selection-start-line="203" selection-start-column="29" selection-end-line="203" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plot_clusters.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="22" selection-start-column="15" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clusters.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/opencellid_data/germany.csv">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state>
+          <caret column="12" selection-start-column="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/clustering/util/KMeansData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1032">
+          <caret line="89" column="53" selection-start-line="89" selection-start-column="46" selection-end-line="89" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2971#2988#0" expanded="true" />
+            <element signature="e#3333#3347#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/clustering/CellCluster.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="54" column="57" selection-start-line="54" selection-start-column="57" selection-end-line="54" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2146#2307#0" expanded="true" />
+            <element signature="e#2306#2307#0" expanded="true" />
+            <element signature="e#2246#2431#0" expanded="true" />
+            <element signature="e#2430#2431#0" expanded="true" />
+            <element signature="e#2494#2680#0" expanded="true" />
+            <element signature="e#2679#2680#0" expanded="true" />
+            <element signature="e#2684#2936#0" expanded="true" />
+            <element signature="e#2935#2936#0" expanded="true" />
+            <element signature="e#2992#3208#0" expanded="true" />
+            <element signature="e#3207#3208#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/opencellid_data/berlin.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state>
+          <caret column="13" selection-start-column="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>CCAssignmentFourMaven:jar</last-edited>
+          <last-edited>CCAssignmentFourMavenKMeans</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

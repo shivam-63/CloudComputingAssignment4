@@ -16,10 +16,10 @@
  * limitations under the License.
  */
 
-package org.apache.flink.examples.java.clustering.util;
+package clustering.util;
 
+import clustering.CellCluster;
 import org.apache.flink.api.java.utils.ParameterTool;
-import org.apache.flink.examples.java.clustering.KMeans;
 
 import java.io.BufferedWriter;
 import java.io.File;
@@ -30,7 +30,7 @@ import java.util.Locale;
 import java.util.Random;
 
 /**
- * Generates data for the {@link KMeans} example program.
+ * Generates data for the {@link CellCluster} example program.
  */
 public class KMeansDataGenerator {
 
@@ -48,7 +48,7 @@ public class KMeansDataGenerator {
 	private static final char DELIMITER = ' ';
 
 	/**
-	 * Main method to generate data for the {@link KMeans} example program.
+	 * Main method to generate data for the {@link CellCluster} example program.
 	 *
 	 * <p>The generator creates to files:
 	 * <ul>
