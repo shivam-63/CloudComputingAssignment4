@@ -1,0 +1,32 @@
+Benchmarking
+
+#1: ()
+- m4.large
+- 2 instances
+- us-east
+Workload: 
+#1: 
+- 10 iterations, 500 clusters 
+- 29809 ms runtime
+#2: 
+- 50 iterations, 500 clusters 
+- 45152 ms runtime
+#3: 
+- 250 iterations, 500 clusters 
+- 109869 ms runtime
+#4: 
+- 10 iterations, 50 clusters 
+- 25061 ms runtime
+#5: 
+- 10 iterations, 250 clusters 
+- 26291 ms runtime
+
+aws emr add-steps --cluster-id j-27VCHJIVA0MQW --steps Type=CUSTOM_JAR,Name=ClusterBerlinStep3,Jar=command-runner.jar,Args="flink","run","-m","yarn-cluster","-yn","2","/home/hadoop/CCAssignmentFourMavenKMeans.jar","--input","s3://cloudcomputingemr/berlin.csv ","--output","s3://cloudcomputingemr/cluster-output3.csv","--iterations","250","--k","500" --region us-east-1
+
+aws emr add-steps --cluster-id j-27VCHJIVA0MQW --steps Type=CUSTOM_JAR,Name=ClusterBerlinStep4,Jar=command-runner.jar,Args="flink","run","-m","yarn-cluster","-yn","2","/home/hadoop/CCAssignmentFourMavenKMeans.jar","--input","s3://cloudcomputingemr/berlin.csv ","--output","s3://cloudcomputingemr/cluster-output4.csv","--iterations","10","--k","50" --region us-east-1
+
+aws emr add-steps --cluster-id j-27VCHJIVA0MQW --steps Type=CUSTOM_JAR,Name=ClusterBerlinStep5,Jar=command-runner.jar,Args="flink","run","-m","yarn-cluster","-yn","2","/home/hadoop/CCAssignmentFourMavenKMeans.jar","--input","s3://cloudcomputingemr/berlin.csv ","--output","s3://cloudcomputingemr/cluster-output5.csv","--iterations","10","--k","250" --region us-east-1
+
+
+
+

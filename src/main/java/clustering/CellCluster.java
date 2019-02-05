@@ -33,7 +33,7 @@ import org.apache.flink.api.java.utils.ParameterTool;
 import org.apache.flink.configuration.Configuration;
 import org.apache.flink.core.fs.FileSystem;
 
-import java.io.Serializable;
+import java.io.*;
 import java.util.Collection;
 
 
@@ -48,6 +48,9 @@ public class CellCluster {
         ExecutionEnvironment env = ExecutionEnvironment.getExecutionEnvironment();
         env.getConfig().setGlobalJobParameters(params); // make parameters available in the web interface
 
+
+        final String temporaryCSVFile = "temporary.csv";
+        final String outputFile = params.get("output");
 
         DataSet<CellTower> towers = getCellTowerDataSet(params, env).filter(new FilterFunction<CellTower>() {
             public boolean filter(CellTower cellTower) throws Exception {
@@ -113,10 +116,28 @@ public class CellCluster {
 
         // emit result
         if (params.has("output")) {
-            clusteredPoints.writeAsCsv(params.get("output"), "\n", ",", FileSystem.WriteMode.OVERWRITE);
-
+            clusteredPoints.writeAsCsv(outputFile, "\n", ",", FileSystem.WriteMode.OVERWRITE);
             // since file sinks are lazy, we trigger the execution explicitly
             env.execute("CellCluster Example");
+
+           /* // Append header rows hack
+            try {
+                // create a writer for permFile
+                BufferedWriter out = new BufferedWriter(new FileWriter(outputFile, false));
+                // create a reader for tmpFile
+                BufferedReader in = new BufferedReader(new FileReader(temporaryCSVFile));
+                String str;
+                out.write("centroid,lon,lat\n");
+                while ((str = in.readLine()) != null) {
+                    out.write(str + "\n");
+                }
+                in.close();
+                out.close();
+                File file = new File(temporaryCSVFile);
+                // file.delete();
+            } catch (IOException e) {
+            }*/
+
         } else {
             System.out.println("Printing result to stdout. Use --output to specify output path.");
             clusteredPoints.print();

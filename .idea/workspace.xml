@@ -7,13 +7,41 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cb2cc22e-c53e-4bd5-bd3c-9abe5a24a5da" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/CCAssignmentFourMavenKMeans.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/clustering/CellCluster.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/clustering/util/KMeansData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/clustering/util/KMeansDataGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/kmeans/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/CCAssignmentFourMaven.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flink-master/flink-examples/flink-examples-batch/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flink-master/flink-shaded-hadoop/flink-shaded-hadoop2/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/submission-docs/benchmarking.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/submission-docs/commands.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/submission-docs/configuration.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/submission-docs/questions.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/CCAssignmentFourMaven_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/CCAssignmentFourMaven_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clusters.csv" beforeDir="false" afterPath="$PROJECT_DIR$/clusters.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CCAssignmentFourMavenKMeans/CCAssignmentFourMavenKMeans.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CCAssignmentFourMaven_jar/CCAssignmentFourMaven.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/CCAssignmentFourMaven_jar/CCAssignmentFourMaven.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/WordCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WordCount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/clustering/CellCluster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/clustering/CellCluster.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WordCount$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WordCount$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WordCount$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WordCount$2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/WordCount.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WordCount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/clustering/CellCluster$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/clustering/CellCluster$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/clustering/CellCluster$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/clustering/CellCluster$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/clustering/CellCluster$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/clustering/CellCluster$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/clustering/CellCluster$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/clustering/CellCluster$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/clustering/CellCluster$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/clustering/CellCluster$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/clustering/CellCluster$CellTower.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/clustering/CellCluster$CellTower.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/clustering/CellCluster$Centroid.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/clustering/CellCluster$Centroid.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/clustering/CellCluster$CentroidAccumulator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/clustering/CellCluster$CentroidAccumulator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/clustering/CellCluster$CentroidAverager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/clustering/CellCluster$CentroidAverager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/clustering/CellCluster$CountAppender.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/clustering/CellCluster$CountAppender.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/clustering/CellCluster$Point.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/clustering/CellCluster$Point.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/clustering/CellCluster$SelectNearestCenter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/clustering/CellCluster$SelectNearestCenter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/clustering/CellCluster.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/clustering/CellCluster.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temporary.csv" beforeDir="false" afterPath="$PROJECT_DIR$/temporary.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output.csv" beforeDir="false" afterPath="$PROJECT_DIR$/test-output.csv" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -27,13 +55,16 @@
     <session id="236854264">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="csv" value="2" />
           <entry key="dummy" value="21" />
+          <entry key="gitignore" value="19" />
           <entry key="java" value="2533" />
           <entry key="txt" value="1" />
           <entry key="xml" value="6" />
@@ -41,8 +72,9 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
+          <entry key="CSV" value="2" />
           <entry key="JAVA" value="2533" />
-          <entry key="PLAIN_TEXT" value="22" />
+          <entry key="PLAIN_TEXT" value="41" />
           <entry key="XML" value="6" />
         </counts>
       </usages-collector>
@@ -51,6 +83,7 @@
           <entry key="MF" value="1" />
           <entry key="class" value="7" />
           <entry key="csv" value="20" />
+          <entry key="gitignore" value="3" />
           <entry key="java" value="7" />
           <entry key="py" value="1" />
           <entry key="txt" value="3" />
@@ -62,40 +95,68 @@
           <entry key="CSV" value="20" />
           <entry key="JAVA" value="7" />
           <entry key="Manifest" value="1" />
-          <entry key="PLAIN_TEXT" value="4" />
+          <entry key="PLAIN_TEXT" value="7" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="59965862">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="270" />
+          <entry key="xml" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="270" />
+          <entry key="XML" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="MF" value="2" />
+          <entry key="txt" value="1" />
+          <entry key="xml" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Manifest" value="2" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="XML" value="1" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/WordCount.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="931">
-              <caret line="111" column="12" selection-start-line="111" selection-start-column="12" selection-end-line="111" selection-end-column="12" />
+            <state relative-caret-position="489">
+              <caret line="87" selection-start-line="87" selection-end-line="87" />
               <folding>
-                <element signature="e#0#3850#0" expanded="true" />
                 <element signature="imports" expanded="true" />
-                <element signature="e#2943#3378#0" expanded="true" />
-                <element signature="e#3377#3378#0" expanded="true" />
-                <element signature="e#3516#3738#0" expanded="true" />
-                <element signature="e#3737#3738#0" expanded="true" />
+                <element signature="e#3162#3410#0" expanded="true" />
+                <element signature="e#3409#3410#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/clustering/util/KMeansData.java">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1032">
-              <caret line="89" column="53" selection-start-line="89" selection-start-column="46" selection-end-line="89" selection-end-column="53" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2971#2988#0" expanded="true" />
-                <element signature="e#3333#3347#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="360">
+              <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -103,30 +164,21 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/clustering/CellCluster.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
-              <caret line="54" column="57" selection-start-line="54" selection-start-column="57" selection-end-line="54" selection-end-column="57" />
+            <state relative-caret-position="373">
+              <caret line="118" column="49" selection-start-line="118" selection-start-column="49" selection-end-line="118" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2146#2307#0" expanded="true" />
-                <element signature="e#2306#2307#0" expanded="true" />
-                <element signature="e#2246#2431#0" expanded="true" />
-                <element signature="e#2430#2431#0" expanded="true" />
-                <element signature="e#2494#2680#0" expanded="true" />
-                <element signature="e#2679#2680#0" expanded="true" />
-                <element signature="e#2684#2936#0" expanded="true" />
-                <element signature="e#2935#2936#0" expanded="true" />
-                <element signature="e#2992#3208#0" expanded="true" />
-                <element signature="e#3207#3208#0" expanded="true" />
+                <element signature="e#2296#2646#0" expanded="true" />
+                <element signature="e#2645#2646#0" expanded="true" />
+                <element signature="e#2703#2888#0" expanded="true" />
+                <element signature="e#2887#2888#0" expanded="true" />
+                <element signature="e#2951#3137#0" expanded="true" />
+                <element signature="e#3136#3137#0" expanded="true" />
+                <element signature="e#3293#3551#0" expanded="true" />
+                <element signature="e#3550#3551#0" expanded="true" />
+                <element signature="e#3633#3855#0" expanded="true" />
+                <element signature="e#3854#3855#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/clusters.csv">
-          <provider selected="true" editor-type-id="csv-text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -143,17 +195,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/String.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
+            <state relative-caret-position="1125">
               <caret line="110" column="19" selection-start-line="110" selection-start-column="19" selection-end-line="110" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/opencellid_data/berlin.csv">
           <provider selected="true" editor-type-id="csv-text-editor">
-            <state>
-              <caret column="13" selection-start-column="10" selection-end-column="13" />
+            <state relative-caret-position="330">
+              <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -170,24 +231,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/clustering/util/KMeansDataGenerator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-334">
+            <state relative-caret-position="375">
               <caret line="50" column="51" selection-start-line="50" selection-start-column="51" selection-end-line="50" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/temporary.csv">
-          <provider selected="true" editor-type-id="csv-text-editor">
-            <state relative-caret-position="-108514">
-              <caret line="172" column="14" selection-start-line="172" selection-start-column="14" selection-end-line="172" selection-end-column="14" />
-            </state>
-          </provider>
-          <provider editor-type-id="csv-table-editor">
-            <state showInfoPanel="true" rowLines="3" />
           </provider>
         </entry>
       </file>
@@ -209,6 +258,7 @@
       <find>actions</find>
       <find>params.get</find>
       <find>cluster</find>
+      <find>exec</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -217,15 +267,17 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/Test.java" />
         <option value="$PROJECT_DIR$/tolstoy-war-and-peace_copy.txt" />
         <option value="$PROJECT_DIR$/src/main/java/SocketWindowWordCount.java" />
-        <option value="$PROJECT_DIR$/src/main/java/WordCount.java" />
         <option value="$PROJECT_DIR$/src/main/java/clustering/util/KMeansData.java" />
         <option value="$PROJECT_DIR$/src/main/java/clustering/util/KMeansDataGenerator.java" />
         <option value="$PROJECT_DIR$/src/main/java/clustering/KMeans.java" />
+        <option value="$PROJECT_DIR$/opencellid_data/berlin.csv" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/clustering/CellCluster.java" />
+        <option value="$PROJECT_DIR$/src/main/java/WordCount.java" />
       </list>
     </option>
   </component>
@@ -235,9 +287,16 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/flink-master 2/flink-runtime-web/web-dashboard/package.json" />
+      <path value="$PROJECT_DIR$/flink-master/flink-runtime-web/web-dashboard/package.json" />
+    </packageJsonPaths>
+  </component>
   <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="900" />
+    <option name="height" value="877" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -247,7 +306,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -258,68 +316,34 @@
             <path>
               <item name="CCAssignmentFourMaven" type="b2602c69:ProjectViewProjectNode" />
               <item name="CCAssignmentFourMaven" type="462c0819:PsiDirectoryNode" />
-              <item name="opencellid_data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CCAssignmentFourMaven" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CCAssignmentFourMaven" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CCAssignmentFourMaven" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CCAssignmentFourMaven" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CCAssignmentFourMaven" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CCAssignmentFourMaven" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CCAssignmentFourMaven" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CCAssignmentFourMaven" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CCAssignmentFourMaven" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CCAssignmentFourMaven" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CCAssignmentFourMaven" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CCAssignmentFourMaven" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="clustering" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CCAssignmentFourMaven" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CCAssignmentFourMaven" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="clustering" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="CCAssignmentFourMaven" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="CCAssignmentFourMaven" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548951082051" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549375597039" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
@@ -350,11 +374,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.SocketWindowWordCount" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -366,28 +385,26 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1548928360621</updated>
-      <workItem from="1548928363862" duration="18683000" />
+      <workItem from="1548928363862" duration="19224000" />
+      <workItem from="1549357544172" duration="503000" />
+      <workItem from="1549358123943" duration="7146000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18683000" />
+    <option name="totallyTimeSpent" value="26873000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25679544" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" weight="0.17710844" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32891566" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32891566" />
@@ -395,15 +412,20 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.34698796" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.16746987" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -413,26 +435,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/Test.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/test/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Test.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/test/Test.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-core/1.7.1/flink-core-1.7.1.jar!/org/apache/flink/core/fs/FileSystem.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="550">
@@ -454,9 +459,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/out/artifacts/CCAssignmentFourMaven_jar/tolstoy-war-and-peace_copy.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/out/artifacts/CCAssignmentFourMaven_jar/tolstoy-war-and-peace_copy.txt" />
     <entry file="file://$PROJECT_DIR$/tolstoy-war-and-peace_copy.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -468,10 +471,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="197">
           <caret line="40" column="11" selection-start-line="40" selection-start-column="11" selection-end-line="40" selection-end-column="11" />
-          <folding>
-            <element signature="e#1493#1494#0" expanded="true" />
-            <element signature="e#1538#1539#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -502,42 +501,10 @@
         <state showInfoPanel="true" rowLines="3" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/clustering/util/KMeansDataGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-334">
-          <caret line="50" column="51" selection-start-line="50" selection-start-column="51" selection-end-line="50" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-java/1.7.1/flink-java-1.7.1.jar!/org/apache/flink/api/java/DataSet.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="203">
           <caret line="380" column="31" selection-start-line="380" selection-start-column="31" selection-end-line="380" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="110" column="19" selection-start-line="110" selection-start-column="19" selection-end-line="110" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/WordCount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="931">
-          <caret line="111" column="12" selection-start-line="111" selection-start-column="12" selection-end-line="111" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#3850#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-            <element signature="e#2943#3378#0" expanded="true" />
-            <element signature="e#3377#3378#0" expanded="true" />
-            <element signature="e#3516#3738#0" expanded="true" />
-            <element signature="e#3737#3738#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -548,6 +515,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/clustering/util/KMeansData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="89" column="53" selection-start-line="89" selection-start-column="46" selection-end-line="89" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clusters.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="LargeFileEditor" />
+      <provider editor-type-id="csv-text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/plot_clusters.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -555,14 +539,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/clusters.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1125">
+          <caret line="110" column="19" selection-start-line="110" selection-start-column="19" selection-end-line="110" selection-end-column="19" />
         </state>
       </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/opencellid_data/berlin.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/opencellid_data/germany.csv">
@@ -572,42 +567,61 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/clustering/util/KMeansData.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/clustering/util/KMeansDataGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1032">
-          <caret line="89" column="53" selection-start-line="89" selection-start-column="46" selection-end-line="89" selection-end-column="53" />
+        <state relative-caret-position="375">
+          <caret line="50" column="51" selection-start-line="50" selection-start-column="51" selection-end-line="50" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2971#2988#0" expanded="true" />
-            <element signature="e#3333#3347#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/kmeans/META-INF/MANIFEST.MF">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/clustering/CellCluster.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="54" column="57" selection-start-line="54" selection-start-column="57" selection-end-line="54" selection-end-column="57" />
+        <state relative-caret-position="373">
+          <caret line="118" column="49" selection-start-line="118" selection-start-column="49" selection-end-line="118" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2146#2307#0" expanded="true" />
-            <element signature="e#2306#2307#0" expanded="true" />
-            <element signature="e#2246#2431#0" expanded="true" />
-            <element signature="e#2430#2431#0" expanded="true" />
-            <element signature="e#2494#2680#0" expanded="true" />
-            <element signature="e#2679#2680#0" expanded="true" />
-            <element signature="e#2684#2936#0" expanded="true" />
-            <element signature="e#2935#2936#0" expanded="true" />
-            <element signature="e#2992#3208#0" expanded="true" />
-            <element signature="e#3207#3208#0" expanded="true" />
+            <element signature="e#2296#2646#0" expanded="true" />
+            <element signature="e#2645#2646#0" expanded="true" />
+            <element signature="e#2703#2888#0" expanded="true" />
+            <element signature="e#2887#2888#0" expanded="true" />
+            <element signature="e#2951#3137#0" expanded="true" />
+            <element signature="e#3136#3137#0" expanded="true" />
+            <element signature="e#3293#3551#0" expanded="true" />
+            <element signature="e#3550#3551#0" expanded="true" />
+            <element signature="e#3633#3855#0" expanded="true" />
+            <element signature="e#3854#3855#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/opencellid_data/berlin.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state>
-          <caret column="13" selection-start-column="10" selection-end-column="13" />
+    <entry file="file://$PROJECT_DIR$/submission-docs/questions.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/WordCount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="489">
+          <caret line="87" selection-start-line="87" selection-end-line="87" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3162#3410#0" expanded="true" />
+            <element signature="e#3409#3410#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -617,7 +631,7 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>CCAssignmentFourMavenKMeans</last-edited>
+          <last-edited>CCAssignmentFourMaven:jar</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

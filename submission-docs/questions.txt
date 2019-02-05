@@ -1,0 +1,45 @@
+Observations: 
+- Changing number of iterations greatly increases runtime
+	- This results in higher workload on all nodes in the cluster
+	- Which in turn results in longer runtime
+	- This could be eliminated with more number of nodes
+	- The actual result doesn't change (get better/improve) significantly after a certain number of iterations are reached
+- Changing the number of clusters doesn't increase runtime significantly
+	- Increased number of clusters results in a neglidigle increase due to the increase synchronization effort
+	- Work distributed more efficiently than in the case of increased number of iterations
+#1: ()
+- m4.large
+- 2 instances
+- us-east
+Workload: 
+#1: 
+- 10 iterations, 500 clusters 
+- 29809 ms runtime
+#2: 
+- 50 iterations, 500 clusters 
+- 45152 ms runtime
+#3: 
+- 250 iterations, 500 clusters 
+- 109869 ms runtime
+#4: 
+- 10 iterations, 50 clusters 
+- 25061 ms runtime
+#5: 
+- 10 iterations, 250 clusters 
+- 26291 ms runtime
+
+Questions: 
+	Which steps in your program require communication and synchronization
+between your workers?
+
+WordCount: Communication is required when splitting the tasks (group by word) and again when combining the sum results of different workers. 
+Cluster: The position of a centroid changes based on the distibution of points. If a dataset is split into parts processed by different worker nodes, each worker could also adjust the poition of a centroid and would have to communicate it to the other workers.
+
+	What resources are your programs bound by? Memory? CPU? Network? Disk?
+WordCount: This program is mainly bound by Memory, because it needs to temprorarily store every distinct word and its count during execution. 
+
+The main resources that our programs are bound by are CPU and Network. CPU is required to process the tasks - and if those get heavy than CPU becomes a bottleneck on the node-level. Network could become a bottleneck when there is lot of syncronization needed and the processing slows down due to the limited bandwidth between the nodes. 
+
+	Could you improve the partitioning of your data to yield better run-time?
+WordCount: We could improve partioning by dividing the data by chapters - this could improve speed and the probability of finding the same words are higher in the same chapter. 
+We could partition the tower data into regions and then the tasks could be further divided and distributed between the nodes - however, this might result in a worse performance for nodes processing points that would end up at borders of the coverage map regions

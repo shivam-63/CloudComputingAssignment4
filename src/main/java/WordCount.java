@@ -45,7 +45,7 @@ public class WordCount {
 
         final String inputFileName;
         final String outputFileName;
-        final String temporaryCSVFile = "temporary.csv";
+        final String temporaryCSVFile = "s3://cloudcomputingemr/temporary.csv";
 
         try {
             final ParameterTool params = ParameterTool.fromArgs(args);
@@ -54,11 +54,7 @@ public class WordCount {
             // Get the output file name
             outputFileName = params.get("output");
         } catch (Exception e) {
-            System.err.println("No port specified. Please run 'WordCount " +
-                    "--hostname <hostname> --port <port>', where hostname (localhost by default) " +
-                    "and port is the address of the text server");
-            System.err.println("To start a simple text server, run 'netcat -l <port>' and " +
-                    "type the input text into the command line");
+            e.printStackTrace();
             return;
         }
 
@@ -89,13 +85,12 @@ public class WordCount {
                 });
 
 
-        windowCounts.writeAsCsv(temporaryCSVFile, FileSystem.WriteMode.OVERWRITE);
+        windowCounts.writeAsCsv(outputFileName, FileSystem.WriteMode.OVERWRITE);
 
 
         env.execute("Socket Window WordCount");
 
-
-        // Append header rows hack
+        /*// Append header rows hack
         try {
             // create a writer for permFile
             BufferedWriter out = new BufferedWriter(new FileWriter(outputFileName, false));
@@ -111,7 +106,7 @@ public class WordCount {
             File file = new File(temporaryCSVFile);
             file.delete();
         } catch (IOException e) {
-        }
+        }*/
     }
 
 }
