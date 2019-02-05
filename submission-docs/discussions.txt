@@ -1,0 +1,53 @@
+Cluster configuration:
+- m4.large
+- 2 instances
+- us-east
+
+Results: 
+#1: 
+- 10 iterations, 500 clusters 
+- 29809 ms runtime
+#2: 
+- 50 iterations, 500 clusters 
+- 45152 ms runtime
+#3: 
+- 250 iterations, 500 clusters 
+- 109869 ms runtime
+#4: 
+- 10 iterations, 50 clusters 
+- 25061 ms runtime
+#5: 
+- 10 iterations, 250 clusters 
+- 26291 ms runtime
+
+
+Observations: 
+- Changing number of iterations greatly increases the runtime
+	- This results in higher workload on all nodes in the cluster which in turn results in longer runtime
+	- This could be reduced by adding more nodes
+	- The actual result doesn't change (get better/improve) significantly after a certain number (treshold) of iterations is reached
+- Changing the number of clusters doesn't increase the runtime significantly
+	- Increased number of clusters results in a negligible increase due to the increase of the communication between workers effort
+	- Work distributed more efficiently than in the case of just an increased number of iterations
+
+
+
+Questions: 
+--Which steps in your program require communication and synchronization between your workers?
+
+-WordCount: Communication is required when combing intermediate results of MapReduce. Tuples containing the same words from different workers have to be reduced before the final output. 
+
+-CellCluster: The position of a centroid changes based on the distibution of the points. If a dataset is split into parts processed by different worker nodes, each worker could also adjust the position of a centroid and would have to communicate it to the other workers.
+
+--What resources are your programs bound by? Memory? CPU? Network? Disk?
+
+-WordCount: This program is mainly bound by memory because it needs to temprorarily store every distinct word and its count during execution. Texts that have richer vocabulary (more distinct words) would need more storage to keep track of them. 
+
+-CellCluster: The main resources that our programs are bound by are CPU and Network. CPU is required to process the tasks - and if those get heavy, then CPU becomes a bottleneck on the node-level. Network could become a bottleneck when there is lot of synchronization needed and the processing slows down due to the limited bandwidth and increased throughput between the nodes.  
+
+
+--Could you improve the partitioning of your data to yield better run-time?
+
+-WordCount: We could improve partioning by dividing the data by chapters - this could improve speed as the probability of finding the same words are higher in the same chapter. 
+
+-CellCluster: We could partition by the latitude and longitude. Split the data into regions based on which the worker tasks would be divided. The less workers work on the same region, the less communication between the workers is required. However, this might result in worse performance for nodes processing points that would end up at borders of the coverage map regions
