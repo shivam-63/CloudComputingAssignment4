@@ -27,17 +27,6 @@ import org.apache.flink.util.Collector;
 
 import java.io.*;
 
-/**
- * Implements a streaming windowed version of the "WordCount" program.
- *
- * <p>This program connects to a server socket and reads strings from the socket.
- * The easiest way to try this out is to open a text server (at port 12345)
- * using the <i>netcat</i> tool via
- * <pre>
- * nc -l 12345
- * </pre>
- * and run this example with the hostname and the port as arguments.
- */
 @SuppressWarnings("serial")
 public class WordCount {
 
@@ -90,7 +79,7 @@ public class WordCount {
 
         env.execute("Socket Window WordCount");
 
-        /*// Append header rows hack
+        // Append header rows hack
         try {
             // create a writer for permFile
             BufferedWriter out = new BufferedWriter(new FileWriter(outputFileName, false));
@@ -106,7 +95,7 @@ public class WordCount {
             File file = new File(temporaryCSVFile);
             file.delete();
         } catch (IOException e) {
-        }*/
+        }
     }
 
 }
