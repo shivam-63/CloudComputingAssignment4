@@ -48,6 +48,6 @@ Questions:
 
 --Could you improve the partitioning of your data to yield better run-time?
 
--WordCount: We could improve partioning by dividing the data by chapters - this could improve speed as the probability of finding the same words are higher in the same chapter. 
+-WordCount: We could improve partitioning by dividing the data by chapters - this could improve speed as the probability of finding the same words are higher in the same chapter.
 
 -CellCluster: We could partition by the latitude and longitude. Split the data into regions based on which the worker tasks would be divided. The less workers work on the same region, the less communication between the workers is required. However, this might result in worse performance for nodes processing points that would end up at borders of the coverage map regions
